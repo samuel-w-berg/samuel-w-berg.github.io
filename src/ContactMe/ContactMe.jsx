@@ -1,14 +1,13 @@
 import React from 'react';
 
-function ContactMe() {
+export default function ContactMe() {
     return (
         <section>
             <h2>Contact Me</h2>
-            <p>Email: example@example.com</p>
-            <p>Phone: 123-456-7890</p>
-            <p>Address: 123 Main St, Anytown USA</p>
+            <p>Email: samuel.w.berg@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/samuel-w-berg/">LinkedIn</a></p>
+            <p><a href="https://github.com/samuel-w-berg?tab=repositories">Github</a></p>
         </section>
     );
 }
 
-export default ContactMe;
