@@ -1,21 +1,39 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Menu } from 'semantic-ui-react';
+import AboutMe from '../AboutMe/AboutMe';
+import ContactMe from '../ContactMe/ContactMe';
+
 // import your styles and any other dependencies
 
 export default function LandingPage() {
   return (
     <div className="landing">
+      <Menu pointing secondary>
+        <Menu.Item
+          name='about'
+          as={Link}
+          to='/about'
+        />
+        <Menu.Item
+          name='skills'
+          as={Link}
+          to='/skills'
+        />
+        <Menu.Item
+          name='portfolio'
+          as={Link}
+          to='/portfolio'
+        />
+        <Menu.Item
+          name='contact'
+          as={Link}
+          to='/contact'
+        />
+      </Menu>
       <h1>Hello, I'm Sam</h1>
-      <p>I'm a software engineer specialized in...</p>
-
-      <nav>
-        <ul>
-          <Link path="/about"><li>About Me</li></Link>
-          <li><Link path="/skills">Skills</Link></li>
-          <li><Link path="/portfolio">Portfolio</Link></li>
-          <li><Link path="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+      <AboutMe />
+      <ContactMe />
     </div>
   );
 }
