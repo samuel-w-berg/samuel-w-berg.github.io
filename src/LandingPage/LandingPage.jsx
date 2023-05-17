@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
 import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../ContactMe/ContactMe';
+import Portfolio from '../Portfolio/Portfolio';
+import Skills from '../Skills/Skills';
 
 // import your styles and any other dependencies
 
@@ -33,6 +35,8 @@ export default function LandingPage() {
       </Menu>
       <h1>Hello, I'm Sam</h1>
       <AboutMe />
+      <Skills />
+      <Portfolio />
       <ContactMe />
     </div>
   );
