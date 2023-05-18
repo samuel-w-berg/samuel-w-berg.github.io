@@ -2,8 +2,8 @@
   position: relative;
   text-align: center;
   color: white;
-  height: 95vh; /* Set the height to 100% of the viewport height */
-  overflow: hidden; /* Hide anything that goes beyond the container boundaries */
+  height: 95vh; 
+  overflow: hidden; 
   margin-top: -20px;
 }
 
@@ -14,10 +14,34 @@
   transform: translate(-50%, -50%);
 }
 
-.img-responsive {
-  min-height: 100%; /* Ensure the image at least covers the height of the container */
-  width: auto; /* Let the width adjust automatically to maintain aspect ratio */
-  position: relative; /* Needed for correct alignment */
-  left: 50%; /* Move the left side of the image to the center of the container */
-  transform: translateX(-50%); /* Move the image back by half its width */
+.myMenu {
+  background-color: black !important;
 }
+
+.myMenu .item {
+  color: white !important;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide-card {
+  width: 80% !important;
+  text-align: center;
+}
+
+.card-content-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-content-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
