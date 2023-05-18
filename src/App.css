@@ -2,9 +2,8 @@
   position: relative;
   text-align: center;
   color: white;
-  height: 95vh; 
+  height: 100vh; 
   overflow: hidden; 
-  margin-top: -20px;
 }
 
 .photo-text {
@@ -16,16 +15,21 @@
 
 .myMenu {
   background-color: black !important;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .myMenu .item {
   color: white !important;
 }
 
-.about-me {
+.about-me-card {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .wide-card {
@@ -41,6 +45,14 @@
 .card-content-flex {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.about-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 
