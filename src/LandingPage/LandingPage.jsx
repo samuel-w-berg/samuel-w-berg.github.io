@@ -9,7 +9,7 @@ import Skills from '../Skills/Skills';
 export default function LandingPage() {
   return (
     <div className="landing">
-      <Menu pointing secondary>
+      <Menu pointing secondary className="myMenu">
         <Menu.Item
           name='about'
           as={Link}
