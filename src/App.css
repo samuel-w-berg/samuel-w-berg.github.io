@@ -1,0 +1,23 @@
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 95vh; /* Set the height to 100% of the viewport height */
+  overflow: hidden; /* Hide anything that goes beyond the container boundaries */
+  margin-top: -20px;
+}
+
+.photo-text {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.img-responsive {
+  min-height: 100%; /* Ensure the image at least covers the height of the container */
+  width: auto; /* Let the width adjust automatically to maintain aspect ratio */
+  position: relative; /* Needed for correct alignment */
+  left: 50%; /* Move the left side of the image to the center of the container */
+  transform: translateX(-50%); /* Move the image back by half its width */
+}
