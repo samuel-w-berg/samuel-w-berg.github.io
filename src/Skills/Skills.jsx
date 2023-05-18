@@ -4,7 +4,7 @@ const Skills = () => {
     const skills = ['JavaScript', 'React', 'Node.js', 'HTML', 'CSS', 'Git'];
 
     return (
-        <div>
+        <div className="skills-section">
             <h2>Skills</h2>
             <ul>
                 {skills.map((skill, index) => (
