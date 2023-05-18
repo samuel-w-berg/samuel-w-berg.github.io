@@ -8,8 +8,14 @@ import Skills from '../Skills/Skills';
 
 export default function LandingPage() {
   return (
-    <div className="landing">
+    <div className="landing" id="home">
       <Menu pointing secondary className="myMenu" >
+        <Menu.Item
+          name='home'
+          as={Link}
+          to='home'
+          smooth={true}
+        />
         <Menu.Item
           name='about'
           as={Link}

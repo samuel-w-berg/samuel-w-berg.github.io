@@ -3,7 +3,7 @@ import { Card } from 'semantic-ui-react';
 
 export default function Portfolio() {
     return (
-        <div>
+        <div className="portfolio-section">
             <h2>My Projects</h2>
             <Card.Group>
                 <Card>
