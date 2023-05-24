@@ -15,7 +15,7 @@ export default function Portfolio() {
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                        <a href="https://github.com/samuel-w-berg/connect-4">View on GitHub</a>
+                        <a href="https://github.com/samuel-w-berg/connect-4" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                     </Card.Content>
                 </Card>
                 <Card>
@@ -27,7 +27,7 @@ export default function Portfolio() {
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                        <a href="https://github.com/samuel-w-berg/Java-Ripped">View on GitHub</a>
+                        <a href="https://github.com/samuel-w-berg/Java-Ripped" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                     </Card.Content>
                 </Card>
                 <Card>
@@ -39,7 +39,7 @@ export default function Portfolio() {
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                        <a href="https://github.com/samuel-w-berg/BarFly">View on GitHub</a>
+                        <a href="https://github.com/samuel-w-berg/BarFly" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                     </Card.Content>
                 </Card>
                 <Card>
@@ -51,7 +51,7 @@ export default function Portfolio() {
                         </Card.Description>
                     </Card.Content>
                     <Card.Content extra>
-                        <a href="https://github.com/samuel-w-berg/Job-Tracker-WIP">View on GitHub</a>
+                        <a href="https://github.com/samuel-w-berg/Job-Tracker-WIP" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                     </Card.Content>
                 </Card>
             </Card.Group>

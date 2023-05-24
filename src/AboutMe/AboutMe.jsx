@@ -1,4 +1,4 @@
-import {Card, Image } from 'semantic-ui-react';
+import {Card, Image, Icon } from 'semantic-ui-react';
 
 export default function AboutMe() {
     return (
